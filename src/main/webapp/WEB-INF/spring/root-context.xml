@@ -12,7 +12,6 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
 
 	<!-- Root Context: defines shared resources visible to all other web components -->
-	<!-- 자신의 PC(로컬)에 MySql을 설치했을 경우 -->
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName"
